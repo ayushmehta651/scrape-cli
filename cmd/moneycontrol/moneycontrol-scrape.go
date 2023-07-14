@@ -16,7 +16,6 @@ import (
 var indexNumber = 1
 var cells [][]*simpletable.Cell
 var headers []string
-var values []string
 
 func getResponse(url string) (*http.Response, error) {
 
